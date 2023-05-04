@@ -1,0 +1,316 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #000000;
+    color: #ffffff;
+}
+.nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    margin-top: 14px;
+}
+.logo img
+{
+    height: 30px;
+    width: 40px;
+}
+.nav ul
+{
+    display: flex;
+    align-items: center;
+}
+.nav li
+{
+    list-style: none;
+    margin: 4px 15px;
+}
+.nav li a 
+{
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 2px 10px;
+}
+.nav li a:hover
+{
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 10px;
+}
+button
+{
+    height: 40px;
+    width: 80px;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 14px;
+    margin-top: 9px;
+    
+}
+/*Main section*/
+.main
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.mainimage img
+{
+    height: 400px;
+    width: 199px;
+    position: relative;
+    top: -71px;
+    left: 33px;
+}
+.maincontent
+{
+    width: 450px;
+    padding: 10px;
+    margin: 12px;
+
+}
+.maincontent img
+{
+    height: 80px;
+    width: 300px;
+    position: relative;
+    left: 50px;
+
+}
+.maincontent h1 , h3
+{
+font-size: 2.5rem;
+font-weight: 500;
+margin-top: 10px;
+}
+.maincontent p
+{
+font-size: 1.5rem;
+font-weight: 500;
+margin-top: 10px;
+}
+.mainbtn
+{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #f7d1d1;
+}
+/*partners section*/
+.partner-image
+{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 2rem;
+}
+.partner-image img
+{
+    height: 30px;
+    width: 100px;
+    margin: 2.5rem;
+}
+/*specs section*/
+.specslogo img
+{
+    height: 100px;
+    width: 250px;
+    display: block;
+    margin: auto;
+   
+}
+.specs-section
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*Case section*/
+.case
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.caselogo img
+{
+    width: 220px;
+    height: 70px;
+    margin: 2rem auto;
+    display: block;
+}
+.case-item
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caseitemimg img
+{
+    height: 300px;
+    width: 200px;
+    margin: 2rem;
+}
+.case-item p
+{
+    width: 300px;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    text-align: center;
+    line-height:30px
+}
+.para{
+    background-color: transparent;
+}
+.group img
+{
+    height: 50px;
+    width: 5opx;
+
+}
+/*Buy section*/
+.buynow-section
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #181a1bb4;
+   margin-top: 2rem;
+   padding: 30px 10px;
+   border-radius: 18px;
+   margin: 50px;
+}
+.buynow-section h3 , p , div
+{
+    background-color: transparent;
+    padding: 10px;
+}
+.buynow-section h3
+{
+    font-size: 40px;
+    font-weight: 500;   
+}
+.buynow-section > div{
+    width: 30%;
+}
+.image img
+{
+    margin-left: 100px;
+}
+/*style your own section*/
+.style-section
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headphone
+{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 40px;
+   
+}
+/*headphone img*/
+.headphone img
+{
+    height: 150px;
+    width:150px;
+    background-color: #181a1bb4;
+}
+/*buynow img*/
+.desc img
+{
+    height: 20px;
+    width: 20px;
+    margin-left:50px;
+}
+/*Footer*/
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+footer div img
+{
+    height: 60px;
+    width: 60px;
+}
+.listone li
+{
+   list-style: none; 
+}
+.listone li
+{
+   list-style: none; 
+   margin: 0.3rem;
+}
+.listone li a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+}
+/*listtwo*/
+.listtwo li
+{
+   list-style: none; 
+}
+.listtwo li
+{
+   list-style: none; 
+   margin: 0.3rem;
+}
+.listtwo li a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+}
+/*email*/
+.mail
+{
+    display: flex;
+    align-items: center;
+    margin-top:0.5rem;
+}
+.mail > input
+{
+    font-size: 0.7rem;
+    padding: 0.3rem;
+    background-color:#181a1bb4;
+   color: #ffffff;
+}
+.subscribe-button
+{
+    display: flex;
+    align-items: center;
+    
+}
+.subscribe-button p
+{
+ font-size: 1rem;
+}
+.subscribe-button img
+{
+  height: 30px;
+  width: 30px;
+}
+/*logo*/
+.footer-logo img
+{
+    height: 60px;
+    width: 60px;
+    padding: 0.3rem;
+}
+
+
+
